@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>655</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>655</width>
+    <height>364</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>655</width>
+    <height>364</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Control Panel Instruction</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/aiicon.png</normaloff>images/aiicon.png</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>647</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="button_overview">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Overview</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Setting</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>IP Camera</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Address PLC</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Stroubleshooting</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>647</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="button_edrawing">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>E. Drawing</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button_mdrawing">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>M. Drawing</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Part List</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Update SW</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Commit Version</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>647</width>
+     <height>79</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="button_reserve1">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Reserve</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button_reserve2">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Reserve</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button_reserve3">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Reserve</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button_reserve4">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Reserve</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button_reserve5">
+      <property name="minimumSize">
+       <size>
+        <width>121</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Reserve</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;Control Panel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

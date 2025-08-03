@@ -1,15 +1,18 @@
 import sys
-from PyQt6 import uic
-from PyQt6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtWidgets import QApplication
+from PySide6.QtUiTools import QUiLoader
+from PySide6.QtCore import QFile
 
-class MyWindow(QMainWindow):
+class MyWindow:
     def __init__(self):
-        super().__init__()
-        # 🔽 Load file UI (thay 'mainwindow.ui' bằng tên file của bạn)
-        uic.loadUi("ui/control_panel.ui", self)
+        loader = QUiLoader()
+        ui_file = QFile("ui/main.ui")
+        ui_file.open(QFile.ReadOnly)
+        self.window = loader.load(ui_file)
+        ui_file.close()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = MyWindow()
-    window.show()
+    myApp = MyWindow()
+    myApp.window.show()
     sys.exit(app.exec())
