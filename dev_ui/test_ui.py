@@ -6,7 +6,7 @@ from PySide6.QtCore import QFile
 class MyWindow:
     def __init__(self):
         loader = QUiLoader()
-        ui_file = QFile("ui/main.ui")
+        ui_file = QFile("ui/control_panel.ui")
         ui_file.open(QFile.ReadOnly)
         self.window = loader.load(ui_file)
         ui_file.close()

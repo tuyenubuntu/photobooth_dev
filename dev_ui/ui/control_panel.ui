@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1162</width>
-    <height>743</height>
+    <width>1199</width>
+    <height>693</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1199</width>
+    <height>693</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -31,63 +37,288 @@
     background-position: center;
 }</string>
    </property>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>250</y>
-      <width>781</width>
-      <height>351</height>
-     </rect>
-    </property>
-    <widget class="QPushButton" name="pushButton">
-     <property name="geometry">
-      <rect>
-       <x>200</x>
-       <y>30</y>
-       <width>351</width>
-       <height>141</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Start</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>200</x>
-       <y>180</y>
-       <width>351</width>
-       <height>141</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Instructions</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>990</x>
-      <y>10</y>
-      <width>151</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Admin</string>
-    </property>
-   </widget>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1191</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>91</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>1021</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>71</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_admin">
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>71</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* Hiệu ứng khi rê chuột */
+QPushButton#button_:hover {
+    background-color: rgb(70, 230, 110);   /* đậm hơn chút */
+    border: 2px solid rgb(60, 200, 100);   /* thêm viền cho nổi bật */
+}
+
+/* Hiệu ứng khi nhấn giữ */
+QPushButton#button_admin:pressed {
+    background-color: rgb(50, 200, 90);    /* màu tối hơn */
+    border: 2px solid rgb(40, 180, 80);    /* viền đậm hơn */
+    padding-top: 7px;                      /* tạo cảm giác nút “tụt xuống” */
+    padding-left: 12px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Admin</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_7" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1181</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_name">
+         <property name="font">
+          <font>
+           <family>Caveat</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel#label_name {
+    color: #2c3e50;             /* màu chữ */
+    font-size: 48px;            /* cỡ chữ */
+    font-weight: bold;          /* in đậm */
+    font-style: italic;         /* in nghiêng */
+    font-family: &quot;Caveat&quot;;       /* phông chữ */
+	qproperty-alignment: 'AlignCenter';
+}</string>
+         </property>
+         <property name="text">
+          <string>Photobooth Brainbow</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>1181</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>281</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>371</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>331</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_6" native="true">
+         <property name="maximumSize">
+          <size>
+           <width>383</width>
+           <height>203</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="button_start">
+            <property name="maximumSize">
+             <size>
+              <width>351</width>
+              <height>141</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton#button_start{
+    border-radius: 10px;
+    background-color: rgb(85, 255, 127);
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+}
+
+/* Hiệu ứng khi rê chuột */
+QPushButton#button_start:hover {
+    background-color: rgb(70, 230, 110);   /* đậm hơn chút */
+    border: 2px solid rgb(60, 200, 100);   /* thêm viền cho nổi bật */
+}
+
+/* Hiệu ứng khi nhấn giữ */
+QPushButton#button_start:pressed {
+    background-color: rgb(50, 200, 90);    /* màu tối hơn */
+    border: 2px solid rgb(40, 180, 80);    /* viền đậm hơn */
+    padding-top: 7px;                      /* tạo cảm giác nút “tụt xuống” */
+    padding-left: 12px;
+}</string>
+            </property>
+            <property name="text">
+             <string> Start Photobooth</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="button_instructions">
+            <property name="maximumSize">
+             <size>
+              <width>351</width>
+              <height>141</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton#button_instructions {
+    border-radius: 10px;
+    background-color: rgb(85, 255, 127);
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+}
+
+/* Hiệu ứng khi rê chuột */
+QPushButton#button_instructions:hover {
+    background-color: rgb(70, 230, 110);   /* đậm hơn chút */
+    border: 2px solid rgb(60, 200, 100);   /* thêm viền cho nổi bật */
+}
+
+/* Hiệu ứng khi nhấn giữ */
+QPushButton#button_instructions:pressed {
+    background-color: rgb(50, 200, 90);    /* màu tối hơn */
+    border: 2px solid rgb(40, 180, 80);    /* viền đậm hơn */
+    padding-top: 7px;                      /* tạo cảm giác nút “tụt xuống” */
+    padding-left: 12px;
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Instructions</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>371</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>331</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_information">
+      <property name="minimumSize">
+       <size>
+        <width>1161</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel#label_information {
+    background-color: rgb(255, 255, 255);
+    color: Black;
+	border-radius: 6px;
+	qproperty-alignment: 'AlignCenter';
+}</string>
+      </property>
+      <property name="text">
+       <string>Informaton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1162</width>
-     <height>33</height>
+     <width>1199</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
